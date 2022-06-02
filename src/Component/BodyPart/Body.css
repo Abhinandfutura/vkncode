@@ -1,0 +1,15 @@
+.body__left{
+    display: flex;
+    
+   
+    background: hsla(0, 14%, 34%, 0.22);
+  
+flex: 0.65;
+    
+    height: 500vh;
+}
+.body__right{
+    display: flex;
+  flex: 0.35;
+    background-color: white;
+}
