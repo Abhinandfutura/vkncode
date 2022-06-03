@@ -9,6 +9,8 @@
     border-bottom: 1px solid rgb(0 0 0 / 15%);
 color:#6E6E6E;
 
+position: sticky;
+top:0px
 }
 .nav__left{
     display: flex;

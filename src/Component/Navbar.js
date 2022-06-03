@@ -30,7 +30,7 @@ function navbar() {
           <option>25%</option>
           <option>50%</option>
           <option>75%</option>
-          <option>100%%</option>
+          <option>100%</option>
           <option>150%</option>
           <option>200%</option>
         </select>
@@ -42,61 +42,6 @@ function navbar() {
       </div>
       </div>
 
-/* 
-
-<Navbar collapseOnSelect expand="lg" variant="dark" className='navContainer'>
-  <Container>
-  <Navbar.Brand href="#home">
-  <p  className='text' style={{marginLeft:'0'}} > <IoGrid  />  </p>
- 
-  </Navbar.Brand>
-  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-  <Navbar.Collapse id="responsive-navbar-nav">
-    <Nav className="me-auto">
-      <Nav.Link ><p  className='text'>Mechine test</p></Nav.Link>
-      <Nav.Link>
-      <p  className='text' style={{ color:'#0000004d'}} > <FaGreaterThan/></p>
-        </Nav.Link>
-      <Nav.Link  className='text'>
-      <p className='text'>Price Checker</p>
-        </Nav.Link>
-     
-    </Nav>
-    <Nav>
-    <div className='navRight'>
-      
-      <Nav.Link>
-  <select className='select'>
-          <option>Default</option>
-          <option>25%</option>
-          <option>50%</option>
-          <option>75%</option>
-          <option>100%</option>
-          <option>150%</option>
-          <option>200%</option>
-
-        </select>
-      </Nav.Link>
-      <Nav.Link >
-        
-
-        <p className='text'><AiOutlineArrowsAlt/></p>
-      </Nav.Link>
-      <Nav.Link >
-        
-
-      <p className='text'> <AiFillQuestionCircle/></p>
-      </Nav.Link>
-      <Nav.Link >
-        
-<span  className='text' style={{fontSize:'18px', fontWeight:'500'}}>Sign in</span>
-      </Nav.Link>
-      </div>
-    </Nav>
-  </Navbar.Collapse>
-  </Container>
-</Navbar>
-    </div> */
   )
 }
 
