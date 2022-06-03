@@ -1,14 +1,15 @@
 import './App.css';
-import {BrowserRouter,Route,Routes}from 'react-router-dom'
+import React from 'react';
 import Navbar from './Component/Navbar';
 import Body from './Component/BodyPart/Body';
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 
 function App() {
   return (
-<div>
+<div className='app'>
     <Navbar/>
-    <Body/>
+    
     </div>
   );
 }
