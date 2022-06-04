@@ -1,6 +1,6 @@
 import React from 'react'
 import './Navbar.css'
-import {Nav,Container,Navbar} from 'react-bootstrap'
+import {Nav,Navbar} from 'react-bootstrap'
 import message from'../images/message.jpg'
 import notification from '../images/notification.jpg'
 import menuRight from '../images/menuRight.jpg'

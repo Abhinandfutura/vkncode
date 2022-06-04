@@ -52,7 +52,7 @@
 
 .menuText {   
     display: flex;
-    transition: .9s ease;
+ 
     text-align: left;
     height:391px;
     flex-direction: column;
@@ -60,16 +60,16 @@
 }
 
 .dashbord_text{
+    
     font-family: poppins;
     color:white;
     font-size: 13px;
-    transform: scaleX(1.5s);
     cursor: pointer;
+    text-decoration: none;
+   
 }
-.dashbord_text:hover{
-    border-bottom: 1px solid rgb(207, 205, 205);
-    transition: all ease 0.5sec;
-}
+
+ 
 
 .menuText_container{
     display: flex;

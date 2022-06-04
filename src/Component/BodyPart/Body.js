@@ -8,6 +8,7 @@ import box from '../images/box.jpg'
 import users from '../images/users.jpg'
 import report from '../images/report.jpg'
 import calculator from '../images/calculator.jpg'
+import {Link} from 'react-router-dom'
 import whitemenu from '../images/whitemenu.jpg'
 function Body() {
   return (
@@ -35,15 +36,15 @@ function Body() {
       <div className='menuText_container'>
       <div className='menuText'>
        
-    <p className='dashbord_text'>Dashbord</p>
-    <p className='dashbord_text'>Sales</p>
-    <p className='dashbord_text'>Purchase</p>
-    <p className='dashbord_text'>Payments</p>
-    <p className='dashbord_text'>Products</p>
-    <p className='dashbord_text'>Contacts</p>
-    <p className='dashbord_text'>Reports</p>
-    <p className='dashbord_text'>Accounts</p>
-    <p className='dashbord_text'>More</p>
+    <Link to='/' className='dashbord_text'>Dashbord</Link>
+    <Link to='/' className='dashbord_text'>Sales</Link>
+    <Link to='/'className='dashbord_text'>Purchase</Link>
+    <Link to='/' className='dashbord_text'>Payments</Link>
+    <Link to='/' className='dashbord_text'>Products</Link>
+    <Link to='/' className='dashbord_text'>Contacts</Link>
+    <Link to='/' className='dashbord_text'>Reports</Link>
+    <Link to='/' className='dashbord_text'>Accounts</Link>
+    <Link to='/' className='dashbord_text'>More</Link>
     </div>
 
 </div>
