@@ -4,7 +4,7 @@ function BodyLeft() {
   return (
     <div className='bodyLeft'>
 
-hii
+
 
     </div>
   )
