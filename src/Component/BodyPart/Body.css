@@ -1,0 +1,132 @@
+.body__left{
+    width: 241px;
+   
+    
+    margin-top: 5px;
+    margin-left: 32px;
+    display: flex;
+
+
+}
+.bodyRight{
+    align-items: center;
+    display: flex;
+   
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.bodyContainer{
+    height: 90vh;
+    margin-top: 50px;
+    display: flex;
+
+
+}
+.bodyLeft__container{
+    width: 54px;
+    background-color: #000000d9;
+    height: 400px;
+    margin-left: -10px;
+    display: flex;
+    border-radius: 8px;
+    justify-content: center;
+
+}
+.dash{
+    background-color: transparent;
+}
+.imageContainer{
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.dash{
+    color: blanchedalmond;
+    
+    width: 31px;
+    border-radius: 5px;
+}
+
+.menuText {   
+    display: flex;
+    transition: .9s ease;
+    text-align: left;
+    height:391px;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.dashbord_text{
+    font-family: poppins;
+    color:white;
+    font-size: 13px;
+    transform: scaleX(1.5s);
+    cursor: pointer;
+}
+.dashbord_text:hover{
+    border-bottom: 1px solid rgb(207, 205, 205);
+    transition: all ease 0.5sec;
+}
+
+.menuText_container{
+    display: flex;
+    background: #000000d9;;
+    width: 154px;
+    border-radius: 8px;
+    height: 400px;
+    justify-content: center;
+    margin-left: 10px;
+    
+    padding: 12px;
+}
+
+.priceChecker{
+    width:460px;
+    height: 386px;
+    
+    margin-left:-300px;
+}
+.head{
+    width:100%;
+    height: 50px;
+    border-radius: 8px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border:1px solid #00000029;
+    justify-content: space-between;
+padding: 18px;
+
+}
+.priceChecker_text{
+    color:black
+}
+.priceChecker_body{
+    width: 100%;
+    height: 89%;
+    border-radius: 8px;
+    margin-top: 4px;
+    background-color: white;
+    border:1px solid #00000029;
+}
+.heading{
+    width: 100%;
+    display: flex;
+    
+    align-items: center;
+flex-direction: column;
+    font-size: 22px;
+    height: 135px;
+    justify-content: center;
+}
+.price{
+    display: flex;
+    justify-content: center;
+    padding: 31px;;
+    width:100%;
+    text-align: center;
+    flex-direction: column;
+}
