@@ -1,14 +1,14 @@
 import React from 'react'
 import './Navbar.css'
 import {Nav,Container,Navbar} from 'react-bootstrap'
-import message from'./images/message.jpg'
-import notification from './images/notification.jpg'
-import menuRight from './images/menuRight.jpg'
-import userimg  from './images/userimg.jpg'
-import logo from './images/logo.jpg'
-import user2 from './images/user2.jpg'
-import arrow from './images/arrow.jpg'
-import squaremenu from './images/squaremenu.jpg'
+import message from'../images/message.jpg'
+import notification from '../images/notification.jpg'
+import menuRight from '../images/menuRight.jpg'
+import userimg  from '../images/userimg.jpg'
+import logo from '../images/logo.jpg'
+import user2 from '../images/user2.jpg'
+import arrow from '../images/arrow.jpg'
+import squaremenu from '../images/squaremenu.jpg'
 function navbar() {
   return (
     <div >

@@ -1,0 +1,33 @@
+.SearchText__container{
+    border: 1px solid #0000001f;
+    border-radius: 8px;
+    background: white;
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 300px;
+}
+.SearchText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.barcode{
+    text-align: center;
+    padding: 5px;
+    outline: none;
+    border-radius: 7px;
+    margin-top: 7px;
+    border: 1px solid #0000003d;
+}
+.checkPrice_btn{
+    background-color: #07CC00;
+    color:white;
+    border:none;
+border-radius: 8px;;
+margin-top: 20px;
+    padding: 5px 17px 5px 17px;
+}

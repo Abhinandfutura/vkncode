@@ -1,15 +1,22 @@
 import './App.css';
 import React from 'react';
-import Navbar from './Component/Navbar';
-import Body from './Component/BodyPart/Body';
-import 'bootstrap/dist/css/bootstrap.min.css'
 
+import 'bootstrap/dist/css/bootstrap.min.css'
+import {BrowserRouter,Routes,Route} from 'react-router-dom'
+import Home from './Component/BodyPart/home/Home'
+import PageChecker from './Component/BodyPart/PageChecker/PageChecker';
 
 function App() {
   return (
 <div className='app'>
-    <Navbar/>
-    <Body/>
+<BrowserRouter>
+<Routes>
+<Route path='/' element={<Home/>} />
+<Route path='page' element={<PageChecker/>} />
+
+</Routes>
+</BrowserRouter>
+   
     
     </div>
   );
